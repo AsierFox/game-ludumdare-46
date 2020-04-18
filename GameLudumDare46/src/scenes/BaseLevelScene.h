@@ -6,11 +6,13 @@
 #include "../physics/Vector2D.h"
 #include "../tiledmap/TiledMap.h"
 #include "../entities/Entity.h"
+#include "../entities/GameObject.h"
 
 class BaseLevelScene : public BaseScene
 {
 protected:
 
+	std::vector<GameObject*> m_objects;
 	std::vector<Entity*> m_entities;
 
 	TiledMap* m_map;

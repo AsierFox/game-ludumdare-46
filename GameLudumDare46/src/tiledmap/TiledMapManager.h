@@ -8,6 +8,7 @@
 #include <nlohmann/json.hpp>
 
 #include "TiledMap.h"
+#include "MapSpawnProperty.h"
 
 class TiledMapManager
 {

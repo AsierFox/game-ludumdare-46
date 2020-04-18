@@ -1,0 +1,108 @@
+﻿'GameLudumDare46.exe' (Win32): Loaded 'C:\dev\game-ludumdare-46\GameLudumDare46\Release\GameLudumDare46.exe'. Symbols loaded.
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntdll.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel32.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\KernelBase.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ucrtbase.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\shell32.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cfgmgr32.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\SHCore.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\dev\game-ludumdare-46\GameLudumDare46\SDL2.dll'. Module was built without symbols.
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcrt.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\advapi32.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sechost.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\rpcrt4.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\sspicli.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\gdi32.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptbase.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\win32u.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcryptprimitives.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\gdi32full.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp_win.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\user32.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\imm32.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ole32.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\combase.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcryptprimitives.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\oleaut32.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\dev\game-ludumdare-46\GameLudumDare46\SDL2_ttf.dll'. Module was built without symbols.
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\setupapi.dll'. 
+'GameLudumDare46.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\bcryptprimitives.dll'
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\bcrypt.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\dev\game-ludumdare-46\GameLudumDare46\SDL2_image.dll'. Module was built without symbols.
+'GameLudumDare46.exe' (Win32): Loaded 'C:\dev\game-ludumdare-46\GameLudumDare46\SDL2_mixer.dll'. Module was built without symbols.
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msvcp140.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\vcruntime140.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\windows.storage.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\version.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winmm.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\dev\game-ludumdare-46\GameLudumDare46\libfreetype-6.dll'. Module was built without symbols.
+'GameLudumDare46.exe' (Win32): Loaded 'C:\dev\game-ludumdare-46\GameLudumDare46\zlib1.dll'. Module was built without symbols.
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winmmbase.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winmmbase.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\winmmbase.dll'. 
+'GameLudumDare46.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\winmmbase.dll'
+'GameLudumDare46.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\winmmbase.dll'
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\profapi.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\powrprof.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\umpdc.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\shlwapi.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\kernel.appcore.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\cryptsp.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\uxtheme.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\clbcatq.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\MMDevAPI.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\devobj.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\avrt.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dinput8.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\InputHost.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\CoreMessaging.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\CoreUIComponents.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\WinTypes.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\propsys.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ntmarta.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\hid.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\wintrust.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msasn1.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\crypt32.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\XInput1_4.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\msctf.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\oleacc.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\TextInputFramework.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\iertutil.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\d3d9.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dwmapi.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\DXCore.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\igdumdim32.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\System32\DriverStore\FileRepository\nvami.inf_amd64_a3d5bcc37ff12fed\nvdlist.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ResourcePolicyClient.dll'. 
+'GameLudumDare46.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\ResourcePolicyClient.dll'
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\igdusc32.dll'. 
+'GameLudumDare46.exe' (Win32): Unloaded 'C:\Windows\System32\DriverStore\FileRepository\nvami.inf_amd64_a3d5bcc37ff12fed\nvdlist.dll'
+The thread 0x233c has exited with code 0 (0x0).
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\AudioSes.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\ResourcePolicyClient.dll'. 
+'GameLudumDare46.exe' (Win32): Loaded 'C:\dev\game-ludumdare-46\GameLudumDare46\libpng16-16.dll'. Module was built without symbols.
+The thread 0x1e8c has exited with code 0 (0x0).
+The thread 0x1b8c has exited with code 0 (0x0).
+The thread 0xb24 has exited with code 0 (0x0).
+'GameLudumDare46.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\igdusc32.dll'
+The thread 0x3100 has exited with code 0 (0x0).
+'GameLudumDare46.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\igdumdim32.dll'
+'GameLudumDare46.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\dwmapi.dll'
+'GameLudumDare46.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\d3d9.dll'
+'GameLudumDare46.exe' (Win32): Loaded 'C:\Windows\SysWOW64\dwmapi.dll'. 
+The thread 0xd80 has exited with code 0 (0x0).
+avcore\audiocore\client\audioclient\audioclientcore.cpp(1907)\AUDIOSES.DLL!7B5D0245: (caller: 7A9D357F) ReturnHr(1) tid(1e2c) 80070057 The parameter is incorrect.
+'GameLudumDare46.exe' (Win32): Unloaded 'C:\dev\game-ludumdare-46\GameLudumDare46\libpng16-16.dll'
+The thread 0x1958 has exited with code 0 (0x0).
+'GameLudumDare46.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\XInput1_4.dll'
+'GameLudumDare46.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\avrt.dll'
+'GameLudumDare46.exe' (Win32): Unloaded 'C:\Windows\SysWOW64\dinput8.dll'
+The thread 0x2bf8 has exited with code 0 (0x0).
+The thread 0x2878 has exited with code 0 (0x0).
+The thread 0x1640 has exited with code 0 (0x0).
+The thread 0x1150 has exited with code 0 (0x0).
+The thread 0x2a0c has exited with code 0 (0x0).
+The thread 0x5a4 has exited with code 0 (0x0).
+The thread 0x2780 has exited with code 0 (0x0).
+The program '[6808] GameLudumDare46.exe' has exited with code 0 (0x0).

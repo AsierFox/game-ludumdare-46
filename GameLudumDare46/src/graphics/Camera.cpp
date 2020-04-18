@@ -29,7 +29,7 @@ void Camera::updateTarget(Point* newTarget)
 	this->m_target = newTarget;
 }
 
-void Camera::update(float delta)
+void Camera::update()
 {
 	if (nullptr == this->m_target)
 	{

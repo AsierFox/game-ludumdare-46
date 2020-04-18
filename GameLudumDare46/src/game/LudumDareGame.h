@@ -1,14 +1,13 @@
 #pragma once
 
 #include "../core/Engine.h"
-#include "../scenes/BaseScene.h"
+#include "../scenes/SceneManager.h"
 #include "../graphics/Camera.h"
 #include "../graphics/TextureManager.h"
+#include "scenes/MenuScene.h"
 
 class LudumDareGame
 {
-	BaseScene* currentScene;
-
 public:
 
 	bool init();
@@ -18,6 +17,4 @@ public:
 	void dispose();
 	
 	bool isRunning();
-
-	void changeScene(BaseScene* newScene);
 };

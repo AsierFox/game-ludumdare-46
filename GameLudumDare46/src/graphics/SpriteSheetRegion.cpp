@@ -13,8 +13,8 @@ SpriteSheetRegion::SpriteSheetRegion(std::string textureId, std::string resource
 SpriteSheetRegion::SpriteSheetRegion(std::string textureId, std::string resourcePath, int col, int row, int totalCols, int totalRows, float scale, SDL_RendererFlip flip)
 	: BaseSprite(textureId, resourcePath)
 {
-	this->m_col = col;
-	this->m_row = row;
+	this->m_col = col - 1;
+	this->m_row = row - 1;
 	this->m_totalCols = totalCols;
 	this->m_totalRows = totalRows;
 	this->m_scale = scale;

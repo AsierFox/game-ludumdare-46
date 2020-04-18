@@ -9,9 +9,7 @@ bool LudumDareGame::init()
 		return false;
 	}
 
-	//this->currentScene = new
-
-	TextureManager::getInstance()->load("test", "assets/test.png");
+	SceneManager::getInstance()->setInitialScene(new MenuScene());
 
 	return true;
 }
@@ -25,27 +23,23 @@ void LudumDareGame::update(float delta)
 {
 	Engine::getInstance()->update(delta);
 
-	//this->currentScene->update(delta);
+	SceneManager::getInstance()->getCurrentScene()->update(delta);
 
-	Camera::getInstance()->update(delta);
+	Camera::getInstance()->update();
 }
 
 void LudumDareGame::draw()
 {
 	Engine::getInstance()->drawStart();
 
-	//this->currentScene->draw();
-
-	int w, h;
-	TextureManager::getInstance()->queryWidthAndHeight("test", &w, &h);
-	TextureManager::getInstance()->render("test", 100, 100, w, h, w, h);
+	SceneManager::getInstance()->getCurrentScene()->draw();
 
 	Engine::getInstance()->drawEnd();
 }
 
 void LudumDareGame::dispose()
 {
-	//this->currentScene->dispose();
+	SceneManager::getInstance()->getCurrentScene()->dispose();
 
 	Engine::getInstance()->dispose();
 }
@@ -53,13 +47,4 @@ void LudumDareGame::dispose()
 bool LudumDareGame::isRunning()
 {
 	return Engine::getInstance()->isRunning();
-}
-
-void LudumDareGame::changeScene(BaseScene* newScene)
-{
-	BaseScene* previousScene = this->currentScene;
-
-	this->currentScene = newScene;
-
-	previousScene->dispose();
 }
