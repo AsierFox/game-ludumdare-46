@@ -4,21 +4,21 @@
 #include "../../ui/Button.h"
 #include "../../graphics/SpriteSheetRegion.h"
 #include "../../scenes/SceneManager.h"
-#include "IntroScene.h"
-#include "CreditScene.h"
+#include "../../media/Font.h"
+#include "ForestScene1.h"
 
-class MenuScene : public BaseMenuScene
+class IntroScene : public BaseMenuScene
 {
-	Font* title;
+	std::vector<Font*> m_fonts;
 
 public:
 
-	MenuScene();
+	IntroScene();
 
 	virtual void update(float delta) override;
 	virtual void draw() override;
 	virtual void dispose() override;
 
 	static void onClickPlay();
-	static void onClickCredits();
+	static void onClickBack();
 };

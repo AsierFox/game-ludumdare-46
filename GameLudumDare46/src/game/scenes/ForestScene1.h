@@ -4,10 +4,13 @@
 #include "../entities/Player.h"
 #include "../../tiledmap/TiledMapManager.h"
 #include "../../entities/GameObjectFactory.h"
+#include "../ui/BatteryLifeUI.h"
+#include "GameOverScreen.h"
 
 class ForestScene1 : public BaseLevelScene
 {
 	Player* m_player;
+	BatteryLifeUI* m_batteryLifeHUD;
 
 public:
 

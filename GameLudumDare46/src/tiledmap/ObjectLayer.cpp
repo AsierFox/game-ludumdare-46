@@ -15,7 +15,6 @@ void ObjectLayer::render()
 	for (unsigned int i = 0; i < this->m_objects.size(); i++)
 	{
 		TiledObject tiledObject = this->m_objects[i];
-		TextureManager::getInstance()->renderRect(tiledObject.m_collider);
 	}
 }
 

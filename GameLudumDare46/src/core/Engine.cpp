@@ -32,13 +32,15 @@ bool Engine::init()
 
 	SDL_WindowFlags windowFlags = (SDL_WindowFlags) (SDL_WINDOW_RESIZABLE | SDL_WINDOW_ALLOW_HIGHDPI);
 
-	this->m_window = SDL_CreateWindow("Skygine", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 960, 640, windowFlags);
+	this->m_window = SDL_CreateWindow("Be Cool or Die", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, 960, 640, windowFlags);
 
 	if (nullptr == this->m_window)
 	{
 		spdlog::critical("[Engine::init] Error creating Window: {0}", SDL_GetError());
 		return false;
 	}
+
+	SDL_SetWindowResizable(this->m_window, SDL_FALSE);
 
 	this->m_renderer = SDL_CreateRenderer(this->m_window, -1, SDL_RENDERER_ACCELERATED | SDL_RENDERER_PRESENTVSYNC);
 

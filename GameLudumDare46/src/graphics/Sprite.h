@@ -18,6 +18,7 @@ public:
 	void render(float x, float y) override;
 	void render(float x, float y, SDL_RendererFlip flip);
 	void render(float x, float y, SDL_RendererFlip flip, float moveWithCameraScalar);
+	void renderFixed(float x, float y) override;
 	void dispose() override;
 	float getWidth() override;
 	float getHeight() override;

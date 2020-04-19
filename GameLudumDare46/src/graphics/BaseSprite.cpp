@@ -16,3 +16,8 @@ float BaseSprite::getFlip()
 {
 	return this->m_flip;
 }
+
+void BaseSprite::setFlip(SDL_RendererFlip flip)
+{
+	this->m_flip = flip;
+}

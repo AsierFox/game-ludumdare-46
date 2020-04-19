@@ -39,7 +39,7 @@ void Button::update()
 
 void Button::draw()
 {
-	this->m_currentStateSprite->render(this->m_pos.x, this->m_pos.y);
+	this->m_currentStateSprite->renderFixed(this->m_pos.x, this->m_pos.y);
 }
 
 void Button::dispose()

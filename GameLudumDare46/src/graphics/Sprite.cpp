@@ -45,6 +45,11 @@ void Sprite::render(float x, float y, SDL_RendererFlip flip, float moveWithCamer
 	TextureManager::getInstance()->render(this->getTextureId(), x, y, this->m_width, this->m_height, this->getWidth(), this->getHeight(), flip, moveWithCameraScalar);
 }
 
+void Sprite::renderFixed(float x, float y)
+{
+	TextureManager::getInstance()->renderFixed(this->getTextureId(), x, y, this->m_width, this->m_height, this->getWidth(), this->getHeight(), SDL_FLIP_NONE, 1);
+}
+
 void Sprite::dispose()
 {
 	TextureManager::getInstance()->destroy(this->getTextureId());

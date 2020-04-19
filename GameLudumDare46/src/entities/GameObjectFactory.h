@@ -2,7 +2,7 @@
 
 #include "../entities/Entity.h"
 #include "../game/entities/RegularAnimal.h"
-#include "../game/entities/AgressiveAnimal.h"
+#include "../game/entities/AggressiveAnimal.h"
 #include "../game/objects/BatteryObject.h"
 
 enum struct EntityType : short int

@@ -20,7 +20,7 @@ GameObjectFactory* GameObjectFactory::getInstance()
 Entity* GameObjectFactory::createEntity(int x, int y, EntityType type, TiledMap* belongsToMap)
 {
 	Entity* entity = nullptr;
-	std::string entityId = "regular-animal-" + this->nextEnemyId;
+	std::string entityId = "animal-" + std::to_string(this->nextEnemyId);
 
 	switch (type)
 	{
@@ -49,9 +49,9 @@ Entity* GameObjectFactory::createEntity(int x, int y, EntityType type, TiledMap*
 		break;
 
 	case EntityType::BEAR:
-		entity = new AgressiveAnimal(entityId, "bear", x, y, belongsToMap,
-			new SpriteAnimation(entityId + "-idle", "assets/sprites/bear.png", 1, 1, 3, 1, 6),
-			new SpriteAnimation(entityId + "-move", "assets/sprites/bear.png", 1, 1, 3, 1, 6));
+		entity = new AggressiveAnimal(entityId, "bear", x, y, belongsToMap,
+			new SpriteAnimation(entityId + "-idle", "assets/sprites/bear.png", 1, 1, 1, 1, 6),
+			new SpriteAnimation(entityId + "-move", "assets/sprites/bear.png", 1, 1, 1, 1, 6));
 		break;
 	}
 
@@ -70,7 +70,7 @@ Entity* GameObjectFactory::createEntity(int x, int y, EntityType type, TiledMap*
 GameObject* GameObjectFactory::createMapObject(int x, int y, ObjectType type, TiledMap* belongsToMap)
 {
 	GameObject* object = nullptr;
-	std::string entityId = "game-object-" + this->nextEnemyId;
+	std::string entityId = "game-object-" + std::to_string(this->nextEnemyId);
 
 	switch (type)
 	{

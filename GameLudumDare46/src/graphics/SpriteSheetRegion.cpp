@@ -34,6 +34,11 @@ void SpriteSheetRegion::render(float x, float y)
 	TextureManager::getInstance()->renderFrame(this->getTextureId(), x, y, this->m_frameWidth, this->m_frameHeight, this->getWidth(), this->getHeight(), this->m_col, this->m_row, this->m_flip);
 }
 
+void SpriteSheetRegion::renderFixed(float x, float y)
+{
+	TextureManager::getInstance()->renderFrameFixed(this->getTextureId(), x, y, this->m_frameWidth, this->m_frameHeight, this->getWidth(), this->getHeight(), this->m_col, this->m_row, this->m_flip);
+}
+
 void SpriteSheetRegion::dispose()
 {
 	TextureManager::getInstance()->destroy(this->getTextureId());
@@ -47,4 +52,24 @@ float SpriteSheetRegion::getWidth()
 float SpriteSheetRegion::getHeight()
 {
 	return this->m_frameHeight * this->m_scale;
+}
+
+int SpriteSheetRegion::getCol()
+{
+	return this->m_col + 1;
+}
+
+void SpriteSheetRegion::updateCol(int newCol)
+{
+	this->m_col = newCol - 1;
+}
+
+int SpriteSheetRegion::getRow()
+{
+	return this->m_row + 1;
+}
+
+void SpriteSheetRegion::updateRow(int newRow)
+{
+	this->m_row = newRow - 1;
 }

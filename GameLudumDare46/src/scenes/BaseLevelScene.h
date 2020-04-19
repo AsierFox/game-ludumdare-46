@@ -7,6 +7,7 @@
 #include "../tiledmap/TiledMap.h"
 #include "../entities/Entity.h"
 #include "../entities/GameObject.h"
+#include "../ui/BaseUI.h"
 
 class BaseLevelScene : public BaseScene
 {

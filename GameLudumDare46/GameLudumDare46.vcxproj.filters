@@ -36,9 +36,6 @@
     <ClCompile Include="src\entities\GameObjectFactory.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\entities\InteractionRect.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="src\graphics\particles\Particle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -159,7 +156,16 @@
     <ClCompile Include="src\game\ui\BatteryLifeUI.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="src\game\entities\AgressiveAnimal.cpp">
+    <ClCompile Include="src\game\entities\AggressiveAnimal.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\scenes\CreditScene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\scenes\GameOverScreen.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game\scenes\IntroScene.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -180,9 +186,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\entities\GameObjectFactory.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="src\entities\InteractionRect.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="src\graphics\particles\Particle.h">
@@ -344,7 +347,19 @@
     <ClInclude Include="src\game\ui\BatteryLifeUI.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="src\game\entities\AgressiveAnimal.h">
+    <ClInclude Include="src\types\GameObjectType.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\entities\AggressiveAnimal.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\scenes\CreditScene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\scenes\GameOverScreen.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game\scenes\IntroScene.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

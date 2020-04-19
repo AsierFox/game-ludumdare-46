@@ -4,16 +4,13 @@
 
 class BaseUI
 {
-private:
-
-	BaseUI();
-
 protected:
 
 	Vector2D m_pos;
 
 public:
 
+	BaseUI();
 	BaseUI(int x, int y);
 
 	virtual void update() = 0;
